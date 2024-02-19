@@ -14,16 +14,27 @@ body, .quote-input
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-.timer
+#timer,#counter
 {
+    margin-left: 22%;
     position:absolute;
-    top:2rem;
+    top: 1rem;
     font-size: 3rem;
     font-weight: bold;
     color: #F0D84F;
 }
+#counter
+{
+    position:absolute;
+    top:4rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #F0D84F;
+}
+
 .container
 {
+    margin-top: 30px;
     background-color: #F0D84F;
     padding: 2rem;
     border-radius: .8rem;
